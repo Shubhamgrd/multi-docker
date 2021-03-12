@@ -18,7 +18,7 @@ after_success:
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub
-  - docker push shubham/multi-client
-  - docker push shubham/multi-nginx
-  - docker push shubham/multi-server
-  - docker push shubham/multi-worker
+  - docker push shubham465/multi-client
+  - docker push shubham465/multi-nginx
+  - docker push shubham465/multi-server
+  - docker push shubham465/multi-worker
